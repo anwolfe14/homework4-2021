@@ -32,6 +32,7 @@ body{
   background-position: center;
   font-family: "Andika","sans-serif";
   background-image: url("../images/pigeon-background.JPEG");
+  background-repeat: no-repeat;
   background-color: #DDDDDD;
   /*Req 1*/
 }
@@ -72,11 +73,13 @@ td{
 /*Req 6b*/
 .colhead{
   color: #FFFFFF;
-  width: 125px;
+  min-width: 125px;
   padding: 10px;
   text-transform: uppercase;
   background-color: #7e0820;
   margin: auto;
+  vertical-align: middle;
+  
 
 }
 /*Req 6c*/
@@ -93,7 +96,7 @@ tr:nth-child(even) {
 }
 /*Req 6f*/
 tr:hover{
-  background-color: darkred;
+  background-color: #7e0820;;
   opacity: .25;
 
 }
